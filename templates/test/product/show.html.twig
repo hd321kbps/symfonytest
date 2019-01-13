@@ -1,0 +1,9 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}Страница товара{% endblock %}
+
+{% block body %}
+  <h1>Страница товара</h1>
+  <p>{{ product.id }}</p>
+  <p>{{ product.category.name }}</p>
+{% endblock %}
